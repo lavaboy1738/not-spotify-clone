@@ -16,6 +16,7 @@
 
 body{
     font-family: var(--main-stack-font);
+    background: linear-gradient(to bottom, #A6808C, black);
 }
 
 button{
@@ -37,11 +38,6 @@ button:hover{
     transition: 0.1s all ease;
     opacity: 1;
     transform: scale(1.1);
-}
-
-.app{
-    background: linear-gradient(to bottom, #A6808C, black);
-    height: 100%;
 }
 
 .trackbar{
@@ -126,11 +122,13 @@ button:hover{
 }
 
 .playlist__song-name{
+    font-size: 14px;
     padding: 10px;
     color: var(--main-font-color);
 }
 
 .playlist__song-artist{
+    font-size: 13px;
     color: var(--secondary-font-color);
     padding: 10px;
 }
@@ -155,5 +153,13 @@ button:hover{
 
     .player__header{
         padding-bottom: 0;
+    }
+
+    .playlist{
+        overflow: none;
+    }
+
+    .app{
+        height: 1500px;
     }
 }
