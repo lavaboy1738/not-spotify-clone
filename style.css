@@ -1,0 +1,159 @@
+:root{
+    --main-background-color: #1a1a1a;
+    --main-font-color: white;
+    --secondary-font-color: #aaa;
+    --light-white: #eee;
+    --not-spotify-green: #1DB954;
+    --container-width: 768px;
+    --main-stack-font: 'Quicksand', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--main-stack-font);
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    opacity: 0.9;
+    background-color: var(--not-spotify-green);
+    color: var(--main-font-color);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.1s all ease;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.app{
+    background: linear-gradient(to bottom, #A6808C, black);
+    height: 100%;
+}
+
+.trackbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    transition: 0.1s all ease;
+}
+
+.trackbar-inner{
+    height: 5px;
+    width: 30%;
+    background-color: var(--not-spotify-green);
+}
+
+.player{
+    display: flex;
+    height: 100vh;
+}
+
+.player__header{
+    flex: 1;
+    padding: 8vh;
+}
+
+.player__image{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.player__details{
+    text-align: center;
+}
+
+.player__song{
+    font-size: 15px;
+    font-weight: 600;;
+    color: var(--main-font-color);
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.player__artist{
+    font-size: 14px;
+    color: var(--secondary-font-color);
+    margin: 5px;
+}
+
+.player__body{
+    flex: 2;
+    padding: 8vh;
+}
+
+.playlist{
+    list-style: none;
+    height: 100%;
+    overflow: scroll;
+}
+
+.playlist__song{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    transition: 0.3s all ease;
+    padding: 10px;
+}
+
+.playlist__song:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.playlist__song-active{
+    color: var(--not-spotify-green);
+}
+
+.play__pause{
+    color: var(--main-font-color);
+    width: 25px;
+    line-height: 40px;
+}
+
+.playlist__song-name{
+    padding: 10px;
+    color: var(--main-font-color);
+}
+
+.playlist__song-artist{
+    color: var(--secondary-font-color);
+    padding: 10px;
+}
+
+.playlist__song-duration{
+    margin-left: auto;
+    color: var(--secondary-font-color)
+}
+
+@media screen and (max-width: 768px){
+    .player{
+        display: block;
+    }
+
+    .player__body{
+        padding: 2vh;
+    }
+
+    .player__image{
+        width: 100%;
+    }
+
+    .player__header{
+        padding-bottom: 0;
+    }
+}
