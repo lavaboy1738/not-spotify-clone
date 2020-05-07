@@ -1,6 +1,6 @@
-import songList from "../data/songs.js"
+import songList from "./songs.js"
 
-const Playlist = (() => {
+const App = (() => {
     //data and state of the player
     const songs = songList;
     let currentPlayingIndex = 0;
@@ -143,4 +143,4 @@ const Playlist = (() => {
     }
 })();
 
-export default Playlist;
+App.init()
