@@ -1,7 +1,7 @@
 const songsList = [
     {
         id: 1,
-        url: "/music/don't-hmu.mp3",
+        url: "./music/don't-hmu.mp3",
         title: "Don't HMU",
         artist: "Savantloup",
         time: "2:43",
@@ -11,7 +11,7 @@ const songsList = [
 
     {
         id: 2,
-        url: "/music/clout-hill.mp3",
+        url: "./music/clout-hill.mp3",
         title:"Cloud Hill",
         artist: "F5",
         time: "3:18",
@@ -21,7 +21,7 @@ const songsList = [
 
     {
         id: 3,
-        url: "/music/stargazing.mp3",
+        url: "./music/stargazing.mp3",
         title: "STARGAZING",
         artist: "Travis Scott",
         time: "4:32",
@@ -31,7 +31,7 @@ const songsList = [
 
     {
         id: 4,
-        url: "/music/anime-thighs.mp3",
+        url: "./music/anime-thighs.mp3",
         title: "Anime Thighs",
         artist: "MC Virgin",
         time: "2:35",
@@ -41,7 +41,7 @@ const songsList = [
 
     {
         id: 5,
-        url: "/music/a-lot.mp3",
+        url: "./music/a-lot.mp3",
         title: "A lot",
         artist: "21 Savage feat. J. Cole",
         time: "4:49",
@@ -51,7 +51,7 @@ const songsList = [
 
     {
         id: 6,
-        url: "/music/toosie-slide.mp3",
+        url: "./music/toosie-slide.mp3",
         title: "Toosie Slide",
         artist: "Drake",
         time: "4:08",
@@ -61,7 +61,7 @@ const songsList = [
 
     {
         id: 7,
-        url: '/music/through-the-wire.mp3',
+        url: './music/through-the-wire.mp3',
         title: "Through the Wire",
         artist: "Kanye West",
         time: "3:41",
@@ -71,7 +71,7 @@ const songsList = [
 
     {
         id: 8,
-        url: "/music/stay-schemin.mp3",
+        url: "./music/stay-schemin.mp3",
         title: "Stay Schemin'",
         artist: "Rick Ross feat. Drake",
         time: "4:28",
@@ -81,7 +81,7 @@ const songsList = [
 
     {
         id: 9,
-        url: "/music/mask-off.mp3",
+        url: "./music/mask-off.mp3",
         title: "Mask Off",
         artist: "Future",
         time: "3:25",
@@ -91,7 +91,7 @@ const songsList = [
 
     {
         id: 10,
-        url: "/music/fresh.mp3",
+        url: "./music/fresh.mp3",
         title: "Fresh",
         artist: "Kool & the Gang",
         time: "4:24",
@@ -101,7 +101,7 @@ const songsList = [
 
     {
         id: 11,
-        url: "/music/dirty-money.mp3",
+        url: "./music/dirty-money.mp3",
         title: "Dirty Money",
         artist: "Clipse",
         time: "3:45",
@@ -111,7 +111,7 @@ const songsList = [
 
     {
         id: 12,
-        url: "/music/protect-ya-neck.mp3",
+        url: "./music/protect-ya-neck.mp3",
         title: "Protect Ya Neck",
         artist: "Wu-Tang Clan",
         time: "5:03",
@@ -121,7 +121,7 @@ const songsList = [
 
     {
         id: 13,
-        url: "/music/easy-lover.mp3",
+        url: "./music/easy-lover.mp3",
         title: "Easy Lover",
         artist: "Philip Bailey feat. Phil Collins",
         time: "5:06",
