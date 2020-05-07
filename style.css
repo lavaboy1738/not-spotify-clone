@@ -51,8 +51,8 @@ button:hover{
 
 .trackbar-inner{
     height: 5px;
-    width: 30%;
     background-color: var(--not-spotify-green);
+    transition: 0.1s all ease;
 }
 
 .player{
@@ -103,8 +103,20 @@ button:hover{
 .playlist__song{
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
-    transition: 0.3s all ease;
+    transition: 0.5s all ease;
     padding: 10px;
+    color: var(--main-font-color);
+    position: relative;
+}
+
+.playlist__song-blocker{
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
 }
 
 .playlist__song:hover{
@@ -113,29 +125,46 @@ button:hover{
 
 .playlist__song-active{
     color: var(--not-spotify-green);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .play__pause{
-    color: var(--main-font-color);
     width: 25px;
     line-height: 40px;
 }
 
 .playlist__song-name{
+    pointer-events: none;
     font-size: 14px;
     padding: 10px;
-    color: var(--main-font-color);
 }
 
 .playlist__song-artist{
+    pointer-events: none;
     font-size: 13px;
     color: var(--secondary-font-color);
     padding: 10px;
 }
 
+.playlist__song-artist-active{
+    color:var(--not-spotify-green)
+}
+
 .playlist__song-duration{
     margin-left: auto;
     color: var(--secondary-font-color)
+}
+
+.playlist__song-duration-active{
+    color:var(--not-spotify-green)
+}
+
+a{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    color: var(--secondary-font-color);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 768px){
@@ -160,6 +189,6 @@ button:hover{
     }
 
     .app{
-        height: 1500px;
+        height: 1600px;
     }
 }
