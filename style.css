@@ -166,6 +166,8 @@ a{
     bottom: 5px;
     color: var(--secondary-font-color);
     text-decoration: none;
+    height: 15px;
+    width: 150px;
 }
 
 @media screen and (max-width: 768px){
