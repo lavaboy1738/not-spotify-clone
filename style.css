@@ -192,4 +192,9 @@ a{
     .app{
         height: 1600px;
     }
+
+    a{
+        top: 10px;
+        left: 10px;
+    }
 }
