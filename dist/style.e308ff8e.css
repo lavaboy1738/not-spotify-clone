@@ -192,6 +192,13 @@ a{
     .app{
         height: 1600px;
     }
+
+    a{
+        top: 10px;
+        left: 10px;
+        right: auto;
+        bottom: auto;
+    }
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

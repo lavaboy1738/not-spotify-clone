@@ -58,11 +58,12 @@ button:hover{
 .player{
     display: flex;
     height: 100vh;
+    min-height: 500px;
 }
 
 .player__header{
     flex: 1;
-    padding: 8vh;
+    padding: 4vw;
 }
 
 .player__image{
@@ -91,7 +92,7 @@ button:hover{
 
 .player__body{
     flex: 2;
-    padding: 8vh;
+    padding: 4vw;
 }
 
 .playlist{
@@ -174,7 +175,7 @@ a{
     }
 
     .player__body{
-        padding: 2vh;
+        padding: 10vw;
     }
 
     .player__image{
@@ -182,6 +183,7 @@ a{
     }
 
     .player__header{
+        padding: 10vw;
         padding-bottom: 0;
     }
 
@@ -190,7 +192,7 @@ a{
     }
 
     .app{
-        height: 1600px;
+        height: 1520px;
     }
 
     a{

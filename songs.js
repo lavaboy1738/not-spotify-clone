@@ -12,7 +12,7 @@ const songsList = [
     {
         id: 2,
         url: "./music/clout-hill.mp3",
-        title:"Cloud Hill",
+        title:"Clout Hill",
         artist: "F5",
         time: "3:18",
         cover:"https://i1.sndcdn.com/artworks-28upo8zYFyIfi1ZB-NMQ4BQ-t500x500.jpg",
