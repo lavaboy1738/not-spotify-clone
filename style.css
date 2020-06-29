@@ -59,6 +59,7 @@ button:hover{
     display: flex;
     height: 100vh;
     min-height: 500px;
+    overflow: hidden;
 }
 
 .player__header{
@@ -98,7 +99,8 @@ button:hover{
 .playlist{
     list-style: none;
     height: 100%;
-    overflow: scroll;
+    width: 100%;
+    overflow-y:scroll;
 }
 
 .playlist__song{
@@ -158,6 +160,10 @@ button:hover{
 
 .playlist__song-duration-active{
     color:var(--not-spotify-green)
+}
+
+::-webkit-scrollbar{
+    width: 0;
 }
 
 a{
